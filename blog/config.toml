@@ -1,5 +1,5 @@
 title = "What matters in tech"
-baseURL = "https://whatmattersin.tech"
+baseURL = "https://read.whatmattersin.tech"
 languageCode = "en-us"
 theme = "gohugo-theme-ananke"
 
