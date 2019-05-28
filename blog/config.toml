@@ -1,32 +1,32 @@
-baseurl = "https://www.example.org/"
-title = "Kiera"
-copyright = "Copyright &copy; 2017 - Author Name"
-canonifyurls = true
-theme = "hugo-kiera"
+title = "What matters in tech"
+baseURL = "https://whatmattersin.tech"
+languageCode = "en-us"
+theme = "gohugo-theme-ananke"
 
-paginate = 3
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
 
-summaryLength = 30
-enableEmoji = true
-pygmentsCodeFences = true
-
-[author]
-    name = ""
-    github = ""
-    gitlab = ""
-    linkedin = ""
-    facebook = ""
-    twitter = ""
-    instagram = ""
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
 
 [params]
-    tagline = "A Hugo theme for creative and technical writing"
-
-[[menu.main]]
-    name = "Home" #Name in the navigation bar
-    weight = 10 #The larger the weight, the more on the right this item will be
-    url = "/" #URL address
-[[menu.main]]
-    name = "Posts"
-    weight = 20
-    url = "/posts/"
+  favicon = ""
+  description = "The last theme you'll ever need. Maybe."
+  facebook = ""
+  twitter = "https://twitter.com/whatmattersin"
+  instagram = ""
+  youtube = ""
+  github = ""
+  gitlab = ""
+  linkedin = ""
+  mastodon = ""
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-black"
+  featured_image = "images/alphabets-desk-device-951232.jpg"
+  recent_posts_number = 2
